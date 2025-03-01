@@ -34,7 +34,9 @@ def change_pitch(input_file, n_semitones, output_file="output.wav"):
 
     print(f"轉調完成，輸出檔案: {output_file}")
 
+inputAudio=input(r"輸入檔案路徑(EX:D:\0-git\EZtransposer\韋禮安 Weibird Wei - 狼 Wolves (官方歌詞版).mp3)")
+shiftNum=int(input("輸入轉調的半音數 (正數為升調，負數為降調)"))
 
-inputAudio="D:\\0-git\\EZtransposer\\Sweet, Sexy Lover.mp3"
-change_pitch(inputAudio, -1, inputAudio+"_output.wav") 
+#inputAudio=r"D:\0-git\EZtransposer\韋禮安 Weibird Wei - 狼 Wolves (官方歌詞版).mp3"
+change_pitch(inputAudio, 3, inputAudio+"_output.wav") 
 
