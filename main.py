@@ -38,5 +38,5 @@ inputAudio=input(r"輸入檔案路徑(EX:D:\0-git\EZtransposer\韋禮安 Weibird
 shiftNum=int(input("輸入轉調的半音數 (正數為升調，負數為降調)"))
 
 #inputAudio=r"D:\0-git\EZtransposer\韋禮安 Weibird Wei - 狼 Wolves (官方歌詞版).mp3"
-change_pitch(inputAudio, 3, inputAudio+"_output.wav") 
+change_pitch(inputAudio, shiftNum, inputAudio+"_output.wav") 
 
